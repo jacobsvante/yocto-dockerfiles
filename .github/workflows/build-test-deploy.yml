@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - multiplatform
   pull_request:
 
   # Allow for manually running
