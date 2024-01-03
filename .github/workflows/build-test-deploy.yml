@@ -21,15 +21,8 @@ jobs:
       fail-fast: false
       matrix:
         distro_to_build: [
-          alma-8,
           alma-9,
-          centos-7,
-          debian-10,
           debian-11,
-          fedora-36,
-          opensuse-15.4,
-          ubuntu-18.04,
-          ubuntu-20.04,
           ubuntu-22.04
         ]
         targetplatform: [
